@@ -8,17 +8,17 @@ import java.util.Set;
 public class FindDuplicateCharInString {
 
 	public static void main(String[] args) {
-		System.out.println("String: BeginnersBook.com");
+		System.out.println("Khandelwal");
 		System.out.println("-------------------------");
-		countDupChars("BeginnersBook.com");
+		countDupChars("Khandelwal");
 
-		System.out.println("\nString: ChaitanyaSingh");
-		System.out.println("-------------------------");
-		countDupChars("ChaitanyaSingh");
-
-		System.out.println("\nString: #@$@!#$%!!%@");
-		System.out.println("-------------------------");
-		countDupChars("#@$@!#$%!!%@");
+//		System.out.println("\nString: ChaitanyaSingh");
+//		System.out.println("-------------------------");
+//		countDupChars("ChaitanyaSingh");
+//
+//		System.out.println("\nString: #@$@!#$%!!%@");
+//		System.out.println("-------------------------");
+//		countDupChars("#@$@!#$%!!%@");
 	}
 
 	public static void countDupChars(String str) {
@@ -49,9 +49,9 @@ public class FindDuplicateCharInString {
 		 * having value greater than 1.
 		 */
 		for (Character ch : keys) {
-//			if (map.get(ch) > 1) {
+			//if (map.get(ch) > 1) {
 				System.out.println("Char " + ch + " " + map.get(ch));
-//			}
+		//	}
 		}
 	}
 

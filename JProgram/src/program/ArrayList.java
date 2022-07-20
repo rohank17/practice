@@ -1,6 +1,6 @@
 package program;
 
-import java.util.Iterator;
+import java.util.*;
 
 public class ArrayList {
 
