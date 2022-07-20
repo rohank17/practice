@@ -13,6 +13,7 @@ public class Test4 {
 //			Sample output:
 //			True
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		String str1 = "amazon";
 		String str2 = "azonam";

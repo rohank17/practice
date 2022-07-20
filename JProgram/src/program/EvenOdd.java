@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class EvenOdd {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		int n;
 		System.out.println("Enter an Integer number:");

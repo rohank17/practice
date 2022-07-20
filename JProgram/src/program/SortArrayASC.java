@@ -1,10 +1,8 @@
 package program;
 
-import java.util.Iterator;
-import java.util.Scanner;
-
 public class SortArrayASC {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		int count, temp;

@@ -2,6 +2,7 @@ package interviews;
 
 public class Test6 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 //		Reverse given number and check if number is Palindrome or not, if it's not continue to add  reverse number until you get palindrome.
 
