@@ -18,7 +18,6 @@ public class SecondLargestNoArray {
 			} else if (i > secondHighest) {
 				secondHighest = i;
 			}
-
 		}
 		return secondHighest;
 	}
