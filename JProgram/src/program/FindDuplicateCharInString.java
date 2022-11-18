@@ -40,19 +40,19 @@ public class FindDuplicateCharInString {
 				map.put(ch, 1);
 			}
 		}
-
+		System.out.println("map: " + map);
 		// Obtaining set of keys
-		Set<Character> keys = map.keySet();
+//		Set<Character> keys = map.keySet();
 
 		/*
 		 * Display count of chars if it is greater than 1. All duplicate chars would be
 		 * having value greater than 1.
 		 */
-		for (Character ch : keys) {
-			//if (map.get(ch) > 1) {
-				System.out.println("Char " + ch + " " + map.get(ch));
-		//	}
-		}
+//		for (Character ch : keys) {
+//			// if (map.get(ch) > 1) {
+//			System.out.println("Char " + ch + " " + map.get(ch));
+//			// }
+//		}
 	}
 
 }
